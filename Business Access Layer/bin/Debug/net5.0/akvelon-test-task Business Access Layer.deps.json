@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "akvelon-test-task Business Access Layer/1.0.0": {
+        "runtime": {
+          "akvelon-test-task Business Access Layer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "akvelon-test-task Business Access Layer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
