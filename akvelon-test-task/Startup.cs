@@ -1,4 +1,6 @@
+using Data_Access_Layer.Contracts;
 using Data_Access_Layer.Data;
+using Data_Access_Layer.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -34,6 +36,9 @@ namespace akvelon_test_task
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "akvelon_test_task", Version = "v1" });
             });
+            services.AddTransient<IProjectRepository, ProjectRepository>();
+            services.AddTransient<ITaskRepository, TaskRepository>();
+
 
             services.AddDbContext<ApplicationDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("ConnectionString")));

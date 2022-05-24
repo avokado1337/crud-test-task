@@ -60,14 +60,42 @@ namespace Data_Access_Layer.Repositories
             return await _context.Tasks.ToListAsync();
         }
 
-        public Task<Models.Task> GetTaskFromProject(int projectId, int taskId)
+        public async Task<Models.Task> GetTaskFromProject(int projectId, int taskId)
         {
-            throw new NotImplementedException();
+            var project = await _context.Projects.FirstOrDefaultAsync(x => x.Id == projectId);
+            if (project != null)
+            {
+                var result = project.Tasks.FirstOrDefault(x => x.Id == taskId);
+                if (result != null)
+                {
+                    return result;
+                }
+
+                return null;
+            }
+
+            return null;
         }
 
-        public Task<Project> UpgradeTask(Models.Task task, int projectId)
+        public async Task<Models.Task> UpgradeTask(Models.Task task, int projectId)
         {
-            throw new NotImplementedException();
+            var project = await _context.Projects.FirstOrDefaultAsync(x => x.Id == projectId);
+            if (project != null)
+            {
+                var result = project.Tasks.FirstOrDefault(x => x.Id == task.Id);
+                if (result != null)
+                {
+                    result.Name = task.Name;
+                    result.Priority = task.Priority;
+                    result.ProjectId = task.ProjectId;
+                    result.Status = task.Status;
+                    result.Description = task.Description;
+                    await _context.SaveChangesAsync();
+                    return result;
+                }
+                return null;
+            }
+            return null;
         }
     }
 }

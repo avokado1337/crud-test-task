@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>akvelon_test_task Presentation Layer</RootNamespace>
+    <RootNamespace>akvelon_test_task_Presentation_Layer</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
