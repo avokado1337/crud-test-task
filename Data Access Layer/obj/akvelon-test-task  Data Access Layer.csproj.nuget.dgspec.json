@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGit\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj": {}
+    "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGit\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj": {
+    "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGit\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj",
+        "projectUniqueName": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj",
         "projectName": "akvelon-test-task  Data Access Layer",
-        "projectPath": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGit\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj",
+        "projectPath": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj",
         "packagesPath": "C:\\Users\\sultan.sarazbanov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGit\\Data Access Layer\\obj\\",
+        "outputPath": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Data Access Layer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

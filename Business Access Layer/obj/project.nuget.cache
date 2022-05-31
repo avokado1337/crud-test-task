@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ay5rCYIucJAkgLWSR2P125KhlThWnL3CSbUGlyCsp0q8qV/Ue6O3CpaaWzIf/7NiewpU6B7UtuZUtgsBEMOekw==",
+  "dgSpecHash": "hLVwSLlYXRm/aUPGKbMdD0IcoQmXHWz0tXd2QH244VQR5ueO2ufjFs7VD8orCHdJIhXosTzqcf4o5Smi8kMDVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGit\\Business Access Layer\\akvelon-test-task Business Access Layer.csproj",
+  "projectFilePath": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Business Access Layer\\akvelon-test-task Business Access Layer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sultan.sarazbanov\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\sultan.sarazbanov\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

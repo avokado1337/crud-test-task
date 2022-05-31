@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TdITPXL5w5fpcuEUfgjx/tjcPGZWrarA3cBu9WnVe968KOlYVMddao16qhpbZ2kMYUlAeySmePw0OjbVC4iI/w==",
+  "dgSpecHash": "Ede3dNDm8ow9D2C/htDNrY+N7qjd6pocVJMIY9S4eVs0shD7x6eH5Pn2qxaQ1w5CrwCN81mfd6sxRJN1hICA6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGit\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj",
+  "projectFilePath": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sultan.sarazbanov\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\sultan.sarazbanov\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

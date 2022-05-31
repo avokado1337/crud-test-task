@@ -22,14 +22,16 @@ namespace Data_Access_Layer.Repositories
         //Get project by id
         public async Task<Project> GetProjectAsync(int projectId)
         {
-            return await _context.Projects.FirstOrDefaultAsync(x => x.Id == projectId);
-
+            return await _context.Projects.Include(x => x.Tasks).FirstOrDefaultAsync(x => x.Id == projectId);
         }
 
         //Get all projects
         public async Task<IEnumerable<Project>> GetAllProjectsAsync()
         {
-            return await _context.Projects.ToListAsync();
+            //return await _context.Projects.ToListAsync();
+
+            return await _context.Projects.Include(x => x.Tasks).ToListAsync();
+
         }
 
         //Add new project
