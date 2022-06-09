@@ -23,22 +23,29 @@ namespace akvelon_test_task_Presentation_Layer.Controllers
         }
 
         [HttpGet("projects")]
-        public async Task<IEnumerable<Project>> GetAllProjectsAsync()
+        public async Task<IEnumerable<ProjectDto>> GetAllProjectsAsync()
         {
             return await _service.GetAllProjectsAsync();
         }
 
         [HttpPost("projects")]
-        public async Task<Project> CreateProjectAsync(Project project)
+        public async Task<Project> CreateProjectAsync(ProjectDto projectDto)
         {
-            return await _service.CreateProjectAsync(project);
+            return await _service.CreateProjectAsync(projectDto);
         }
 
         [HttpGet("projects/{id}")]
-        public async Task<Project> GetProjectById(int id)
+        public async Task<ProjectDto> GetProjectById(int id)
         {
             return await _service.GetProjectById(id);
         }
+
+        [HttpPut("projects/{id}")]
+        public async Task<Project> UpdateProjectAsync(int id, [FromBody] ProjectDto projectDto)
+        {
+            return await _service.UpdateProjectAsync(id, projectDto);
+        }
+
 
         [HttpDelete("projects{id}")]
         public void DeleteProjectById(int id)

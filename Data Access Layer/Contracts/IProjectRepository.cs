@@ -12,7 +12,7 @@ namespace Data_Access_Layer.Contracts
         Task<IEnumerable<Project>> GetAllProjectsAsync();
         Task<Project> GetProjectAsync(int projectId);
         Task<Project> AddProjectAsync(Project project);
-        Task<Project> UpdateProjectAsync(Project project);
+        Task<Project> UpdateProjectAsync(int id, Project project);
         void DeleteProject(int projectId);
         Task<IEnumerable<Models.Task>> GetAllTasksFromProject(int projectId);
     }

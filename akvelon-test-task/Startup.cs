@@ -33,12 +33,12 @@ namespace akvelon_test_task
         public void ConfigureServices(IServiceCollection services)
         {
 
-            services.AddControllers()
-                .AddJsonOptions(o => o.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
+            services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "akvelon_test_task", Version = "v1" });
             });
+            services.AddCors();
             services.AddTransient<IProjectRepository, ProjectRepository>();
             services.AddTransient<ITaskRepository, TaskRepository>();
             services.AddTransient<IServiceProject, ServiceProject>();
@@ -51,6 +51,10 @@ namespace akvelon_test_task
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ApplicationDbContext context)
         {
+            app.UseCors(app => app
+            .AllowAnyMethod()
+            .AllowAnyOrigin()
+            .AllowAnyHeader());
             if (env.IsDevelopment())
             {
                 context.Database.EnsureDeleted();
@@ -61,6 +65,7 @@ namespace akvelon_test_task
             }
 
             app.UseHttpsRedirection();
+
 
             app.UseRouting();
 

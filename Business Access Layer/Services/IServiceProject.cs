@@ -9,9 +9,10 @@ namespace Business_Access_Layer.Services
 {
     public interface IServiceProject
     {
-        public Task<Project> CreateProjectAsync(Project project);
-        public Task<IEnumerable<Project>> GetAllProjectsAsync();
-        public Task<Project> GetProjectById(int projectId);
+        public Task<Project> CreateProjectAsync(ProjectDto projectDto);
+        public Task<IEnumerable<ProjectDto>> GetAllProjectsAsync();
+        public Task<ProjectDto> GetProjectById(int projectId);
+        public Task<Project> UpdateProjectAsync(int id, ProjectDto projectDto);
         public void DeleteProjectById(int projectId);
     }
 }

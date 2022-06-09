@@ -43,9 +43,9 @@ namespace Data_Access_Layer.Repositories
         }
 
         //Update project
-        public async Task<Project> UpdateProjectAsync(Project project)
+        public async Task<Project> UpdateProjectAsync(int id, Project project)
         {
-            var result = await _context.Projects.FirstOrDefaultAsync(x => x.Id == project.Id);
+            var result = await _context.Projects.FirstOrDefaultAsync(x => x.Id == id);
 
             if (result != null)
             {

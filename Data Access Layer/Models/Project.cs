@@ -15,8 +15,7 @@ namespace Data_Access_Layer.Models
         public ProjectStatus Status { get; set; }
         public int Priority { get; set; }
         #nullable enable
-        public IList<Task>? Tasks { get; set; }
-        #nullable disable
+        public IList<Task> Tasks { get; set; } = new List<Task>();
 
     }
 }
