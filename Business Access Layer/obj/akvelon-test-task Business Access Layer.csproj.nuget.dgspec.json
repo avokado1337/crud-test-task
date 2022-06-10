@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sultan-PC\\Desktop\\Project\\akvelon-test-task\\Business Access Layer\\akvelon-test-task Business Access Layer.csproj": {}
+    "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Business Access Layer\\akvelon-test-task Business Access Layer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sultan-PC\\Desktop\\Project\\akvelon-test-task\\Business Access Layer\\akvelon-test-task Business Access Layer.csproj": {
+    "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Business Access Layer\\akvelon-test-task Business Access Layer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sultan-PC\\Desktop\\Project\\akvelon-test-task\\Business Access Layer\\akvelon-test-task Business Access Layer.csproj",
+        "projectUniqueName": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Business Access Layer\\akvelon-test-task Business Access Layer.csproj",
         "projectName": "akvelon-test-task Business Access Layer",
-        "projectPath": "C:\\Users\\Sultan-PC\\Desktop\\Project\\akvelon-test-task\\Business Access Layer\\akvelon-test-task Business Access Layer.csproj",
-        "packagesPath": "C:\\Users\\Sultan-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sultan-PC\\Desktop\\Project\\akvelon-test-task\\Business Access Layer\\obj\\",
+        "projectPath": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Business Access Layer\\akvelon-test-task Business Access Layer.csproj",
+        "packagesPath": "C:\\Users\\sultan.sarazbanov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Business Access Layer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sultan-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sultan.sarazbanov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\Sultan-PC\\Desktop\\Project\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj": {
-                "projectPath": "C:\\Users\\Sultan-PC\\Desktop\\Project\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj"
+              "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj": {
+                "projectPath": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj"
               }
             }
           }
@@ -61,24 +62,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Sultan-PC\\Desktop\\Project\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj": {
+    "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sultan-PC\\Desktop\\Project\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj",
+        "projectUniqueName": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj",
         "projectName": "akvelon-test-task  Data Access Layer",
-        "projectPath": "C:\\Users\\Sultan-PC\\Desktop\\Project\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj",
-        "packagesPath": "C:\\Users\\Sultan-PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sultan-PC\\Desktop\\Project\\akvelon-test-task\\Data Access Layer\\obj\\",
+        "projectPath": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Data Access Layer\\akvelon-test-task  Data Access Layer.csproj",
+        "packagesPath": "C:\\Users\\sultan.sarazbanov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sultan.sarazbanov\\Desktop\\ToGitv2\\akvelon-test-task\\Data Access Layer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sultan-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sultan.sarazbanov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,6 +110,10 @@
               "target": "Package",
               "version": "[5.0.17, )"
             },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.17, )"
@@ -134,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

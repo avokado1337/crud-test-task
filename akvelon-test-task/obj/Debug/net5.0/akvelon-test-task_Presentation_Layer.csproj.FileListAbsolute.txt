@@ -193,3 +193,5 @@ C:\Users\Sultan-PC\Desktop\Project\akvelon-test-task\akvelon-test-task\obj\Debug
 C:\Users\Sultan-PC\Desktop\Project\akvelon-test-task\akvelon-test-task\obj\Debug\net5.0\ref\akvelon-test-task_Presentation_Layer.dll
 C:\Users\Sultan-PC\Desktop\Project\akvelon-test-task\akvelon-test-task\obj\Debug\net5.0\akvelon-test-task_Presentation_Layer.pdb
 C:\Users\Sultan-PC\Desktop\Project\akvelon-test-task\akvelon-test-task\obj\Debug\net5.0\akvelon-test-task_Presentation_Layer.genruntimeconfig.cache
+C:\Users\sultan.sarazbanov\Desktop\ToGitv2\akvelon-test-task\akvelon-test-task\bin\Debug\net5.0\Castle.Core.dll
+C:\Users\sultan.sarazbanov\Desktop\ToGitv2\akvelon-test-task\akvelon-test-task\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Proxies.dll

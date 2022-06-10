@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = akvelon-test-task_Business_Access_Layer
+build_property.ProjectDir = C:\Users\sultan.sarazbanov\Desktop\ToGitv2\akvelon-test-task\Business Access Layer\

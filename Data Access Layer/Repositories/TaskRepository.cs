@@ -77,12 +77,14 @@ namespace Data_Access_Layer.Repositories
             return null;
         }
 
-        public async Task<Models.Task> UpgradeTask(Models.Task task, int projectId)
+        public async Task<Models.Task> UpgradeTask(Models.Task task, int projectId, int taskId)
         {
             var project = await _context.Projects.FirstOrDefaultAsync(x => x.Id == projectId);
-            if (project != null)
+            var taskIdentifier = await _context.Tasks.FirstOrDefaultAsync(e => e.Id == taskId);
+
+            if (project != null && taskIdentifier != null)
             {
-                var result = project.Tasks.FirstOrDefault(x => x.Id == task.Id);
+                var result = project.Tasks.FirstOrDefault(x => x.Id == taskId);
                 if (result != null)
                 {
                     result.Name = task.Name;

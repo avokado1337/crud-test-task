@@ -14,7 +14,7 @@ namespace Data_Access_Layer.Models
         public string Description { get; set; }
         public int Priority { get; set; }
         public int ProjectId { get; set; }
-        public string Project { get; set; }
+        public virtual string Project { get; set; } = "Default Project name";
 
     }
 }

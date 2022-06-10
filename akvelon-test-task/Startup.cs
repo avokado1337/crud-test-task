@@ -42,10 +42,11 @@ namespace akvelon_test_task
             services.AddTransient<IProjectRepository, ProjectRepository>();
             services.AddTransient<ITaskRepository, TaskRepository>();
             services.AddTransient<IServiceProject, ServiceProject>();
+            services.AddTransient<ITaskService, TaskService>();
 
 
             services.AddDbContext<ApplicationDbContext>(options =>
-            options.UseSqlServer(Configuration.GetConnectionString("ConnectionString")));
+            options.UseLazyLoadingProxies().UseSqlServer(Configuration.GetConnectionString("ConnectionString")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

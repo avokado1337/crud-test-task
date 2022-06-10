@@ -14,8 +14,8 @@ namespace Data_Access_Layer.Models
         public DateTime Finish { get; set; }
         public ProjectStatus Status { get; set; }
         public int Priority { get; set; }
-#nullable enable
-        public IList<TaskDto>? Tasks { get; set; }
-#nullable disable
+        #nullable enable
+        public virtual IList<TaskDto>? Tasks { get; set; }
+        #nullable disable
     }
 }
